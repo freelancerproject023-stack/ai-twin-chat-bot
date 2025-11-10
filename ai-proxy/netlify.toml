@@ -1,1 +1,9 @@
+# This tells Netlify where to find your serverless function files.
+[functions]
+  directory = "netlify/functions"
 
+# This is a build setting that tells Netlify how to handle things.
+[build]
+  # We don't have a website to publish, just the function.
+  # This setting is not strictly needed but is good practice.
+  publish = "."
