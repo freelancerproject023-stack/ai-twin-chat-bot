@@ -1,0 +1,6 @@
+{
+  "name": "ai-proxy",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.3"
+  }
+}
